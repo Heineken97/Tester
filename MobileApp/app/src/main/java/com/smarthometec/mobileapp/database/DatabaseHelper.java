@@ -204,6 +204,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
         return cursor;
     }
+    /*
     public Cursor getDeviceDataOfRoom(String room){
         String query = "SELECT * FROM TABLE_DEVICE WHERE " + KEY_ROOM_NAME + "= '"+room+"'";
         SQLiteDatabase db = this.getReadableDatabase();
@@ -213,6 +214,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
         return cursor;
     }
+
+     */
     /**
      * Borra todos los datos de una tabla
      * @param table tabla para borrar sus datos

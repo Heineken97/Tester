@@ -64,6 +64,7 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.MyViewHolder> 
             recyclerViewDevices.setLayoutManager(new LinearLayoutManager(activity));
         }
     }
+    /*
     private void storeDataDevices(){
         Cursor cursor = dbHelper.readAllData("TABLE_DEVICE");
         if(cursor.getCount() != 0){
@@ -89,6 +90,8 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.MyViewHolder> 
         }
         cursor.close();
     }
+
+     */
     private void storeDataDevice(){
         Cursor cursor = dbHelper.readAllData("TABLE_DEVICE");
         if(cursor.getCount() != 0){
